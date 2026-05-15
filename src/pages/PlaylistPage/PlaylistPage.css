@@ -1,0 +1,29 @@
+.playlistsPage {
+	color: rgb(228, 255, 196);
+}
+
+.playlists {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.playlists a {
+	color: rgb(101, 237, 207);
+	cursor: pointer;
+}
+
+.playlists a:hover {
+	color: rgb(73, 181, 158);
+}
+
+.search {
+	color: rgb(228, 255, 196);
+	margin-bottom: 20px;
+}
+
+.input{
+	margin-left: 5px;
+	border: 1px solid rgb(101, 237, 207);
+	border-radius: 2px;
+}
